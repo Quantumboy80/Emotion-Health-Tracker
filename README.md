@@ -24,33 +24,40 @@ Clone the repository
 sh
 Copy
 Edit
-git clone https://github.com/Quantumboy80/Emotion-Health-Tracker.git
+--> git clone https://github.com/Quantumboy80/Emotion-Health-Tracker.git
+
 Navigate to the project directory
 
 sh
 Copy
 Edit
-cd Emotion-Health-Tracker
+--> cd Emotion-Health-Tracker
+
 Create a virtual environment (optional but recommended)
 
 sh
 Copy
 Edit
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate  # Windows
+--> python -m venv venv
+--> source venv/bin/activate  # macOS/Linux
+--> venv\Scripts\activate  # Windows
+
+
 Install dependencies
 
 sh
 Copy
 Edit
-pip install -r requirements.txt
+--> pip install -r requirements.txt
+
 Run the Flask application
 
 sh
 Copy
 Edit
-python app.py
+--> python app.py
+
+
 Access the web app
 Open http://127.0.0.1:5000 in your browser.
 
